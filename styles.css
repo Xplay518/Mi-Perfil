@@ -45,6 +45,25 @@ footer {
     width: 100%;
 }
 
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.perfil ul {
+    list-style: none;
+    padding: 0;
+}
+
+.perfil ul li {
+    margin-bottom: 10px;
+}
+
 .habilidad {
     display: inline-block;
     width: 30%;
