@@ -2,10 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #111;
+    background-image: url('https://images.unsplash.com/photo-1532705061423-6224c8c81b66');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad del texto */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -75,4 +80,15 @@ footer {
     width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
     margin-bottom: 10px;
+}
+
+.interes {
+    text-align: center;
+}
+
+.interes img {
+    width: 600px; /* Ajusta el tamaño de la imagen tres veces más grande */
+    height: auto;
+    margin-bottom: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.5); /* Borde desvanecido */
 }
